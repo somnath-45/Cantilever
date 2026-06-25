@@ -1,0 +1,14 @@
+fastapi==0.135.2
+uvicorn==0.43.0
+motor==3.7.1
+pymongo==4.17.0
+python-decouple==3.8
+python-jose==3.5.0
+python-multipart==0.0.24
+passlib==1.7.4
+bcrypt==4.0.1
+certifi==2026.6.17
+dnspython==2.8.0
+pydantic==2.12.5
+pydantic-settings==2.13.1
+python-dotenv==1.2.2

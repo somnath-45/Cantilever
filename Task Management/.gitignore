@@ -1,0 +1,91 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+myenv/
+venv/
+env/
+.venv/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+
+# ==========================
+# Build / Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Database
+# ==========================
+*.sqlite3
+*.db
+
+# Mongo Dumps / Backups
+dump/
+backups/
+
+# ==========================
+# FastAPI / Uvicorn
+# ==========================
+uvicorn.log
+
+# ==========================
+# Secrets / Credentials
+# ==========================
+secrets.json
+credentials.json
+config.secret.*
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# OS Files
+# ==========================
+Thumbs.db

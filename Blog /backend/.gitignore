@@ -1,0 +1,58 @@
+# =========================
+# PYTHON / FASTAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables (IMPORTANT)
+.env
+.env.*
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Alembic cache
+alembic/versions/__pycache__/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# NODE / REACT / VITE
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# SECURITY
+# =========================
+*.pem
+*.key
