@@ -8,7 +8,11 @@ app = FastAPI()
 @app.get("/")
 def root(): 
     return {"message": "Backend is running"}
-origins= {"http://localhost:5173" "localhost:5173","https://cantilever-blog.vercel.app"}
+origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://cantilever-blog.vercel.app"
+]
 
 app.add_middleware(
     CORSMiddleware,
