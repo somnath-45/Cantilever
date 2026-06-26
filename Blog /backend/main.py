@@ -5,7 +5,9 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
+@app.get("/")
+def root(): 
+    return {"message": "Backend is running"}
 origins= {"http://localhost:5173" "localhost:5173","https://cantilever-blog.vercel.app"}
 
 app.add_middleware(
